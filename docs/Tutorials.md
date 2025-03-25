@@ -18,14 +18,7 @@ gmx trjconv -f md_0_1.xtc -s md_0_1.tpr -fit rot+trans -center -dt 100 -e 300000
 
 After determining the successful installation of GMX_RRCS, we first calculate the mutual contact score between residues, the RRCS between residues is defined as:
 
-<div style="text-align: center;" id="fig1">
-    <img src="https://github.com/CZHanoi/gmx_rrcs_tutorial/blob/main/image/rrcs.jpg" style="width:100%">
-    <div>
-        <span style="color:gray">Figure 1: RRCS</span>
-        <br><br>
-    </div>
-</div>
-
+![Figure 2: RRCS](image/rrcs.png)
 
 You can do this in two ways.
 
@@ -126,13 +119,7 @@ y_max=25.0
 You will find the generated image `Filtered_bar_single_protein.eps` in the current directory.
 
 
-<div style="text-align: center;" id="fig2">
-    <img src="https://github.com/CZHanoi/gmx_rrcs_tutorial/blob/main/image/bar.png" style="width:100%">
-    <div>
-        <span style="color:gray">Figure 2: Bar Chart</span>
-        <br><br>
-    </div>
-</div>
+![Figure 2: Bar Chart](image/bar.png)
 
 ### Density stack diagram
 
@@ -151,10 +138,5 @@ resid=resid,
 output_figure=out_density_figure
 )
 ```
-<div style="text-align: center;" id="fig2">
-    <img src="https://github.com/CZHanoi/gmx_rrcs_tutorial/blob/main/image/density.png" style="width:100%">
-    <div>
-        <span style="color:gray">Figure 3: Density Chart</span>
-        <br><br>
-    </div>
-</div>
+![Figure 3: Density Chart](image/density.png)
+
