@@ -18,7 +18,7 @@ gmx trjconv -f md_0_1.xtc -s md_0_1.tpr -fit rot+trans -center -dt 100 -e 300000
 
 After determining the successful installation of GMX_RRCS, we first calculate the mutual contact score between residues, the RRCS between residues is defined as:
 
-![Figure 2: RRCS](image/rrcs.png)
+![Figure 2: RRCS](image/rrcs.jpg)
 
 You can do this in two ways.
 
