@@ -18,5 +18,3 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: true
-
-mkdocs gh-deploy -b docs
